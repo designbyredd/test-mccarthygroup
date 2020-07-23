@@ -1,0 +1,40 @@
+intro {
+    font-family: 'Inconsolata', monospace;
+    font-size: 3vw;
+    font-weight: 300;
+}
+
+intro {
+    font-family: 'Inconsolata', monospace;
+    font-size: 3vw;
+    color: #8e8e8e;
+    font-weight: 300;
+    white-space: normal;
+    word-break: normal;
+    background-color: #fff0f0;
+}
+
+intro {
+    font-family: 'Inconsolata', monospace;
+    font-size: 3vw;
+    color: #8e8e8e;
+    font-weight: 300;
+    white-space: normal;
+    word-break: normal;
+    background-color: #fff0f0;
+}
+
+/* @media screen and (max-width:599px) {
+    .intro {
+        font-family: 'Inconsolata', monospace;
+        font-size: 2rem;
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+        width: 600px;
+    }
+
+    .intro {
+        color: #ff00fe;
+    }
+}
+ */
