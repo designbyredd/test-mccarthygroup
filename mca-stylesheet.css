@@ -27,6 +27,24 @@ h6 {
 	font-weight: 300;
 }
 
+.navbar {
+  min-height: 120px;
+}
+
+.navbar-brand {
+  padding-left: 4vw;
+  height: auto;
+  line-height: 120px;
+	font-size: 3rem;
+}
+.navbar-toggle {
+		border:none;
+	}
+
+.bg-light {
+    background-color: #e8e8e8 !important;
+}
+
 .mca-line {
     font-size: 1rem;
     color: orange;
@@ -40,7 +58,7 @@ h6 {
 
 
 .large-intro {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -55,7 +73,7 @@ h6 {
 	font-weight: 400;
 	margin-top: -30vh;
 
-	
+
 }
 
 .mca-large {
@@ -81,14 +99,14 @@ h6 {
 	margin:0;
 }
 
-.blue-blok { 
+.blue-blok {
 	background-color: #293742;
 	padding-left:  10.8vw;
 	padding-right: 8vw;
 	color:#FBFDFF;
 	margin-top:6vw;
 	width: 95%;
-	margin:0;	
+	margin:0;
 }
 
 
@@ -102,7 +120,7 @@ h6 {
 	padding-bottom: 0;
 }
 
-.btn { 
+.btn {
 border-radius: 0rem;
 }
 
@@ -114,7 +132,7 @@ border-radius: 0rem;
 .card {
     background-color: #fff;
     border: 0px solid ;
-    border-radius: 0;	
+    border-radius: 0;
 }
 
 .card-body{
@@ -124,8 +142,8 @@ border-radius: 0rem;
 }
 
 .card-footer {
-    padding: 0rem 0rem; 
-    background-color: white; 
+    padding: 0rem 0rem;
+    background-color: white;
     border-top: 0 ;
 }
 
@@ -143,13 +161,13 @@ border-radius: 0rem;
       width: 100%;
       display: inline-block;
 			margin: 0px 0;}
-    
+
 			.fab {
         width: calc(100% / 5);
-        animation: fade-in 0.5s 
+        animation: fade-in 0.5s
           cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
       }
-    
+
 
 @keyframes slidein {
   from {
@@ -169,7 +187,7 @@ border-radius: 0rem;
   }
 }
 
-/* large background images */
+/* large parallax background images */
 .bgimage {
   width:100%;
   height:500px;
@@ -191,13 +209,13 @@ border-radius: 0rem;
 }
 
 .bgimage3 {
-  width:100%;
+  width:95vw;
   height:85vh;
   background: url('assets/img/projects/McA_blue-img__0005_12.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  background-attachment: fixed;
+  background-attachment:fixed;
 }
 
 
@@ -221,24 +239,40 @@ border-radius: 0rem;
   background-attachment: fixed;
 }
 
+.bgimagecasestudy {
+  width:100%;
+  height:500px;
+  background: url("https://images.unsplash.com/photo-1543311467-0d04382a7f69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
 .bgimage h5 {
   color:white;
   text-shadow:2px 2px #333;
 }
 
+.large-image{
+  max-width: ; /* or to whatever you want here */
+  max-height: 250px; /* or to whatever you want here */
+}
 
+
+}
 
 
 
 .text-blok {
 	margin:0;
 	width:100%;
-	
+
 }
 
 
-/*==================== 
-	Footer 
+/*====================
+	Footer
 ====================== */
 
 /* Main Footer */
@@ -270,8 +304,8 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 /* Footer 4 */
 .footer- .logo {    display: inline-block;}
 
-/*==================== 
-	Widgets 
+/*====================
+	Widgets
 ====================== */
 .widget{	padding: 20px;	margin-bottom: 40px;}
 .widget.widget-last{	margin-bottom: 0px;}
@@ -286,11 +320,11 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 .widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
 .widget .badge{	float: right;	background: #7f7f7f;}
 
-.typo-light h1, 
-.typo-light h2, 
-.typo-light h3, 
-.typo-light h4, 
-.typo-light h5, 
+.typo-light h1,
+.typo-light h2,
+.typo-light h3,
+.typo-light h4,
+.typo-light h5,
 .typo-light h6,
 .typo-light p,
 .typo-light div,
@@ -313,4 +347,142 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -ms-transition: all 250ms ease-in-out 0s;
 -o-transition: all 250ms ease-in-out 0s;
 transition: all 250ms ease-in-out 0s;
+}
+
+
+
+
+.casestudyhero {
+	width: 95vw;
+	height:85vh;
+background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  background-attachment: local;
+}
+
+.bgimagecasestudyhero {
+  width:95vw;
+  height:85vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment:local;
+}
+
+
+/* recent projects 2 col */
+.recent-projects-2-col {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #e8e8e8;
+}
+
+.recent-projects-2-col .mbr-section-btn .btn-secondary-outline {
+    margin-top: 10px;
+    padding: 3px 0;
+    color: inherit !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.recent-projects-2-col .mbr-section-title,
+.recent-projects-2-col .mbr-section-btn {
+    color: #293742;
+}
+
+.recent-projects-2-col .mbr-section-subtitle {
+    margin-bottom: 15px;
+    color: #293742;
+}
+
+.recent-projects-2-col .title__block {
+    padding: 0 20px;
+    position: absolute;
+    max-width: 50%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10;
+}
+
+.recent-projects-2-col .image {
+    overflow: hidden;
+    width: calc(100% - 120px);
+    max-height: 530px;
+    height: 100%;
+    float: right;
+    position: relative;
+    border-radius: 4px;
+}
+
+.btn .mbr-iconfont {
+    font-size: 15px !important;
+    order: 1;
+    margin-left: 13px;
+}
+
+.btn .mbr-iconfont,
+.btn.btn-sm .mbr-iconfont {
+    cursor: pointer;
+}
+
+.recent-projects-2-col .image img {
+    /* transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*hero top blok right */
+.hero-top-blok-right {
+    margin-top: 10vh;
+   /* padding-bottom: 225px; */
+	height: 100vh;
+    background-image: url("assets/img/projects/McA_blue-img__0000_17.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.hero-top-blok-right .back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 15%;
+    background-color: #e8e8e8;
+}
+
+.hero-top-blok-right .block {
+    background-color: #293742;
+	margin-top: -10vh;
+}
+
+.hero-top-blok-right .content-wrapper {
+    padding: 6rem 4rem;
+  /*  margin: auto;
+    position: relative; */
+}
+
+.hero-top-blok-right .content {
+    max-width: 600px;
+}
+
+.hero-top-blok-right .row {
+    justify-content: flex-end;
+}
+
+.hero-top-blok-right H1 {
+    color: #e8e8e8;
+    text-align: left;
+}
+
+
+.hero-top-blok-right .mbr-text,
+.hero-top-blok-right .mbr-section-btn {
+    color: #e8e8e8;
+    text-align: left;
 }
