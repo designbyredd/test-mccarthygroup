@@ -194,8 +194,8 @@ border-radius: 0rem;
   background: url('assets/img/projects/McA_blue-img__0002_15.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size:contain;
-  background-attachment: relative;
+  background-size:cover;
+  background-attachment: fixed;
 }
 
 .bgimage2 {
@@ -205,7 +205,7 @@ border-radius: 0rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  background-attachment: relative;
+  background-attachment: fixed;
 }
 
 .bgimage3 {
@@ -215,28 +215,28 @@ border-radius: 0rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  background-attachment:relative;
+  background-attachment:fixed;
 }
 
 
 .bgimage4 {
-  width:100%;
+  width:100vw;
   height:500px;
   background: url('assets/img/projects/McA_blue-img__0011_6.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  background-attachment: relative;
+  background-attachment: fixed;
 }
 
 .bgimage5 {
-  width:100%;
+  width:100vw;
   height:500px;
   background: url('assets/img/projects/McA_blue-img__0006_11.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  background-attachment: relative;
+  background-attachment: fixed;
 }
 
 .bgimagecasestudy {
