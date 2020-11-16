@@ -668,7 +668,10 @@ ul.social-footer2 li a {
 }
 
 .accrediations {
-    margin-left: 35px;
+   /* margin-left: 35px; */
+ 	margin-left: 0;
+	margin-right:0;
+	
 }
 
 .cid-sdY9bzoPLd {
