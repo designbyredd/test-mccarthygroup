@@ -819,3 +819,27 @@ ul.social-footer2 li a {
 }
     }
 }
+
+/*.dropdown-menu.show {
+    display: inline-flex;
+} */
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+ 	background-color: #e8e8e8;
+	border: 0px solid;
+    border-radius: 0rem;
+}
