@@ -5,7 +5,7 @@
 }
 
 body {
-    margin: 0;
+    margin-top: 100px;
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     font-size: 1rem;
@@ -34,14 +34,26 @@ h6 {
     /* line-height: 120px */
     /* font-size: 3rem */
     background-image: url('assets/img/logos/McCarthy_logo.png');
-    width: 200px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left top;
-    margin-left: 15px;
-    height: 70px;
+    margin-left: 0vw;
+    width: 150px;
+    height: 55px;
 }
 
+/* @media (min-width:768px) {
+    .navbar-brand {
+        ||*| line-height: 120px |*||
+        /* font-size: 3rem */
+/* background-image: url('assets/img/logos/McCarthy_logo.png') */
+/* background-size: contain */
+/* background-repeat: no-repeat */
+/* background-position: left top */
+/* margin-left: 5vw */
+/* width: 250px */
+/* height: 88px */
+*/
 .navbar-toggle {
     border: none;
 }
@@ -149,12 +161,15 @@ h6 {
 .slider {
     animation: slidein 30s linear infinite;
     white-space: nowrap;
+    margin-right: -120px;
 }
 
 .logos {
     width: 100%;
     display: inline-block;
-    margin: 0px 0;
+
+    /* padding-left: 0px */
+    padding-right: 0px;
 }
 
 .fab {
@@ -162,6 +177,7 @@ h6 {
     animation: fade-in 0.5s
           cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
 }
+
 
 @keyframes slidein {
     from {
@@ -187,7 +203,7 @@ h6 {
 .bgimage {
     width: 100%;
     height: 500px;
-    background: url('assets/img/projects/McA_blue/McA_blue-img__0002_15.png');
+    background: url('assets/img/projects/McA_colour/McA__0008_P1000085.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -197,7 +213,7 @@ h6 {
 .bgimage2 {
     width: 100%;
     height: 500px;
-    background: url('assets/img/projects/McA_blue/McA_blue-img__0008_9.png');
+    background: url('assets/img/projects/McA_Colour/McA__0011_P1000017.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -207,7 +223,7 @@ h6 {
 .bgimage3 {
     width: 95vw;
     height: 85vh;
-    background: url('assets/img/projects/McA_blue/McA_blue-img__0005_12.png');
+    background: url('assets/img/projects/McA_Colour/McA_Hero_Landing.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -217,7 +233,7 @@ h6 {
 .bgimage4 {
     width: 100%;
     height: 500px;
-    background: url('assets/img/projects/McA_blue/McA_blue-img__0011_6.png');
+    background: url('assets/img/projects/McA_Colour/McA_MarcoPierreWhite.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -227,7 +243,7 @@ h6 {
 .bgimage5 {
     width: 100%;
     height: 500px;
-    background: url('assets/img/projects/McA_blue/McA_blue-img__0006_11.png');
+    background: url('assets/img/projects/McA_Colour/McA__0009_P1000056.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -571,7 +587,7 @@ ul.social-footer2 li a {
 
     /* padding-bottom: 225px; */
     height: 100vh;
-    background-image: url("assets/img/projects/McA_colour/McA_Hero_Landing.png");
+    background-image: url('assets/img/projects/McA_Blue/McA_blue-img__0000_17.png');
     background-position: center;
     background-size: cover;
 }
@@ -629,6 +645,7 @@ ul.social-footer2 li a {
     object-fit: cover;
 }
 
+
 @media (max-width:575px) {
     .img-fluid {
         width: 100%;
@@ -660,18 +677,18 @@ ul.social-footer2 li a {
 .hero-home {
     width: 100vw;
     height: 80vh;
-    background: url('assets/img/projects/McA_colour/McA_Hero_Landing.png');
+    background-image: url('assets/img/projects/McA_colour/McA_Hero_Landing.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: local;
+    margin-top: 0px;
 }
 
 .accrediations {
-   /* margin-left: 35px; */
- 	margin-left: 0;
-	margin-right:0;
-
+    /* margin-left: 35px; */
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .cid-sdY9bzoPLd {
@@ -731,6 +748,7 @@ ul.social-footer2 li a {
     border-style: none;
 }
 
+
 @media (max-width: 991px) {
     .cid-sdY9bzoPLd .image {
         max-height: 350px;
@@ -765,6 +783,7 @@ ul.social-footer2 li a {
     animation: animBtn ease-out 0.3s;
 }
 
+
 @keyframes animBtn {
     0% {
         transform: translateX(0px);
@@ -790,5 +809,13 @@ ul.social-footer2 li a {
 
     100% {
         transform: translateX(0px);
+    }
+}
+
+.display-4 {
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
     }
 }
