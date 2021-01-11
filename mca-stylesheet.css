@@ -1,3 +1,21 @@
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+
+    /* border: 1px solid transparent */
+    /* border-radius: 0.25rem */
+    .navbar-light .navbar-toggler {
+        color: none;
+        border-color: none;
+        border-width: 0;
+
+        /* color: rgba(0, 0, 0, 0.5); */
+        /* border-color: rgba(0, 0, 0, 0.1); */
+    }
+}
+
 :root {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
@@ -5,7 +23,7 @@
 }
 
 body {
-    margin-top: 100px;
+    margin-top: 0;
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     font-size: 1rem;
@@ -109,8 +127,9 @@ h6 {
 
 .blue-blok {
     background-color: #293742;
-    padding-left: 10.8vw;
-    padding-right: 8vw;
+    padding-left: 60px;
+
+    /* padding-right: 8vw */
     color: #FBFDFF;
     margin-top: 6vw;
     width: 95%;
@@ -119,6 +138,10 @@ h6 {
 
 .bg-primary {
     background-color: #293742 !important;
+}
+
+.bg-danger {
+    background-color: #ff00ff;
 }
 
 .mca-icon {
@@ -156,6 +179,7 @@ h6 {
 /* codepen  accrediations slider */
 .slide-container {
     overflow: hidden;
+    background-color: #cc4747;
 }
 
 .slider {
@@ -177,7 +201,6 @@ h6 {
     animation: fade-in 0.5s
           cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
 }
-
 
 @keyframes slidein {
     from {
@@ -251,13 +274,14 @@ h6 {
 }
 
 .bgimagecasestudy {
-    width: 100%;
-    height: 500px;
-    background: url("https://images.unsplash.com/photo-1543311467-0d04382a7f69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    width: height;
+
+    /* background: url("https://images.unsplash.com/photo-1543311467-0d04382a7f69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+
+    /* background-attachment: fixed; */
 }
 
 .bgimage h5 {
@@ -645,7 +669,6 @@ ul.social-footer2 li a {
     object-fit: cover;
 }
 
-
 @media (max-width:575px) {
     .img-fluid {
         width: 100%;
@@ -674,9 +697,20 @@ ul.social-footer2 li a {
     padding-bottom: 5vh;
 }
 
+.hero-build {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('assets/img/projects/McA_Blue/McA_blue-img__0000_17.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    margin-top: 0px;
+}
+
 .hero-home {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-image: url('assets/img/projects/McA_colour/McA_Hero_Landing.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -748,7 +782,6 @@ ul.social-footer2 li a {
     border-style: none;
 }
 
-
 @media (max-width: 991px) {
     .cid-sdY9bzoPLd .image {
         max-height: 350px;
@@ -783,7 +816,6 @@ ul.social-footer2 li a {
     animation: animBtn ease-out 0.3s;
 }
 
-
 @keyframes animBtn {
     0% {
         transform: translateX(0px);
@@ -817,13 +849,10 @@ ul.social-footer2 li a {
     font-weight: 300;
     line-height: 1.2;
 }
-    }
-}
 
-/*.dropdown-menu.show {
+/* .dropdown-menu.show {
     display: inline-flex;
 } */
-
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -839,7 +868,11 @@ ul.social-footer2 li a {
     text-align: left;
     list-style: none;
     background-clip: padding-box;
- 	background-color: #e8e8e8;
-	border: 0px solid;
+    background-color: #e8e8e8;
+    border: 0px solid;
     border-radius: 0rem;
+}
+
+.card-subtitle {
+    font-size: 14px;
 }
