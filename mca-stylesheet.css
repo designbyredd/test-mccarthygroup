@@ -1,3 +1,7 @@
+.text.danger {
+    color: hotpink !Important;
+}
+
 .navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
@@ -141,7 +145,7 @@ h6 {
 }
 
 .bg-danger {
-    background-color: #ff00ff;
+    background-color: hotpink !Important;
 }
 
 .mca-icon {
