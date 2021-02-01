@@ -35,6 +35,7 @@ body {
     color: #293742;
     text-align: left;
     background-color: #e8e8e8;
+    overflow-x: hidden;
 }
 
 h1,
@@ -46,6 +47,10 @@ h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .navbar {
@@ -705,6 +710,17 @@ ul.social-footer2 li a {
     width: 100vw;
     height: 100vh;
     background-image: url('assets/img/projects/McA_Blue/McA_blue-img__0000_17.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    margin-top: 0px;
+}
+
+.hero-projects {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('assets/img/projects/McA_Blue/McA_blue-img__0008_9.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
