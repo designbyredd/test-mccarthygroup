@@ -6,14 +6,90 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<title>McCarthys - Build</title>
+		<title>Blank Template for Bootstrap</title>
 		<!-- Bootstrap core CSS -->
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 		<!-- Custom styles for this template -->
 		<link href="style.css" rel="stylesheet">
 		<link href="mca-stylesheet.css" rel="stylesheet">
+		<!-- barlow font -->
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+		<!-- fontawesome-->
+		<script src="https://kit.fontawesome.com/6c7099ef55.js" crossorigin="anonymous"></script>
+		<!-- CSS for the filtered gallery -->
+		<style>* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  /* padding: 20px; */
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  /* width: 33.33%; */
+  display: none;
+  /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  /* padding: 10px; */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  color: slategray;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+  color: slategray;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}</style>
 	</head>
 	<body>
+		<!-- NAV -->
 		<section class="nav">
 			<div class="container fixed-top">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 pb-1">
@@ -62,13 +138,14 @@
 				</nav>
 			</div>
 		</section>
-		<div class="container-fluid hero-build">
+		<!-- ADD PAGE CONTENT HERE -->
+		<div class="container-fluid hero-projects ">
 			<div class="row">
 				<div class="col-12 mb-5">
 </div>
 			</div>
 		</div>
-		<section class="build-pre-hero">
+		<section class="landing-pre-hero">
 </section>
 		<!-- blue title block -->
 		<section id="hero">
@@ -77,63 +154,103 @@
 				<div class="row text-blok">
 					<div class="blok col-11 col-lg-8 jumbotron jumbotron-fluid">
 						<div class="container">
-							<h1 class="display-4">Build</h1>
-							<p class="lead">Smart Spaces  </p>
+							<h1 class="display-4">Projects</h1>
+							<p class="lead">a multi-disciplinary refurbishment and ﬁt-out organisation </p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="casestudycontent">
-			<div class="casestudycontent">
-				<div class="casestudycontent">
-					<div class="container">
-						<div class="row casestudyintro pb-5">
-							<div class="col-12 col-lg-8">
-								<!--	<p class="large-intro">_</p>
-								<h3 style="large-intro">_<br>Build</h3>  -->
-							</div>
-							<div class="col-12 col-lg-11 pt-2">
-								<h3 style="large-intro">_<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-							</div>
-							<div class="col-1"></div>
-							<div class="col-lg-4 mt-5">
-								<h6 class="text-uppercase font-weight-bold">_<br>civil and pure build</h6>
-							</div>
-							<!-- right hand column-->
-							<div class="col-md-8 mt-5">
-								<p>_<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br> </p>
-								<p>_<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p class="mb-5"></p>
-							</div>
-						</div>
-						<div class="row casestudyintro pb-5">
-							<div class="col-lg-4">
-								<h6 class="text-uppercase font-weight-bold">_<br>personal spaces</h6>
-							</div>
-							<!-- right hand column-->
-							<div class="col-md-8">
-								<p>_<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br> </p>
-								<p>_<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p class="mb-5"></p>
-							</div>
-						</div>
-						<!--			<div class="row casestudyintro pb-5">
-							<div class="col-lg-4">
-								<h6 class="text-uppercase font-weight-bold">_<br>title</h6>
-							</div>
-							<!-- right hand column
-							<div class="col-md-8">
-								<p>_<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br> </p>
-								<p>_<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p class="mb-5"></p>
-							</div> 
-						</div> -->
+		<!-- large text intro -->
+		<section class="projects-one">
+			<div class="container pb-5">
+				<div class="row">
+					<div class="col-md-12 ">
+						<h2>_<br>Check out some of our latest projects from across the UK, including a mix of workplace consultancy, office design, office and commercial fit outs and furniture.</h2>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- FOOTER -->
+		<!-- MAIN (filtered gallery) -->
+		<section>
+			<div class="container">
+				<div id="myBtnContainer">
+					<button class="btn active" onclick="filterSelection('all')"> Show all</button>
+					<button class="btn" onclick="filterSelection('nature')"> Nature</button>
+					<button class="btn" onclick="filterSelection('cars')"> Cars</button>
+					<button class="btn" onclick="filterSelection('people')"> People</button>
+				</div>
+				<!-- Portfolio Gallery Grid -->
+				<div class="row">
+					<div class="column  col-md-4 nature">
+						<div class="content">
+							<img src="assets/img/sectors/Sector_Build.png" alt="Mountains" style="width:100%">
+							<h4>Project Title</h4>
+							<p>Sector</p>
+						</div>
+					</div>
+					<div class="column  col-md-4 nature">
+						<div class="content">
+							<img src="assets/img/sectors/Sector_HS.png" alt="Lights" style="width:100%">
+							<h4>Project Title</h4>
+							<p>Sector</p>
+						</div>
+					</div>
+					<div class="column  col-md-4 nature">
+						<div class="content">
+							<img src="assets/img/sectors/Sector_Motor-Retail.png" alt="Nature" style="width:100%">
+							<h4>Project Title</h4>
+							<p>Sector</p>
+						</div>
+					</div>
+					<div class="column  col-md-4 cars">
+						<div class="content">
+							<img src="assets/img/sectors/Sector_Leisure.png" alt="Car" style="width:100%">
+							<h4>Project Title</h4>
+							<p>Sector</p>
+						</div>
+					</div>
+					<div class="column  col-md-4 cars">
+						<div class="content">
+							<img src="assets/img/sectors/Sector_Motor-Retail.png" alt="Car" style="width:100%">
+							<h4>Project Title</h4>
+							<p>Sector</p>
+						</div>
+					</div>
+					<div class="column  col-md-4 cars">
+						<div class="content">
+							<img src="assets/img/sectors/Sector_HS.png" alt="Car" style="width:100%">
+							<h4>Project Title</h4>
+							<p>Sector</p>
+						</div>
+					</div>
+					<div class="column  col-md-4 people">
+						<div class="content">
+							<img src="assets/img/sectors/Sector_HS.png" alt="Car" style="width:100%">
+							<h4>Project Title</h4>
+							<p>Sector</p>
+						</div>
+					</div>
+					<div class="column  col-md-4 people">
+						<div class="content">
+							<img src="assets/img/sectors/Sector_Build.png" alt="Car" style="width:100%">
+							<h4>Project Title</h4>
+							<p>Sector</p>
+						</div>
+					</div>
+					<div class="column col-md-4 people">
+						<div class="content">
+							<img src="assets/img/sectors/Sector_Interiors.png" alt="Car" style="width:100%">
+							<h4>Project Title</h4>
+							<p>Sector</p>
+						</div>
+					</div>
+					<!-- END GRID -->
+				</div>
+				<!-- END MAIN -->
+			</div>
+		</section>
+		<!-- FOOTER -->		 
 		<section class="bg-primary">
 			<footer class="container py-5">
 				<div class="row">
@@ -210,5 +327,49 @@ T: 024 7646 8866<br> <br>
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/popper.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
-	</body>
-</html>
+		<!-- js for the filtered gallery -->
+		<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
