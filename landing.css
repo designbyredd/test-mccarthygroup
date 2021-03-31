@@ -1,5 +1,4 @@
-/*mca stylesheet copied into here */
-
+/* mca stylesheet copied into here */
 .text.danger {
     color: hotpink !Important;
 }
@@ -972,17 +971,6 @@ ul.social-footer2 li a {
     padding-bottom: 80px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -1101,5 +1089,10 @@ hidelinkforlanding {
     padding-right: 80px;
 }
 
+/* everything from McA stylesheet */
+a {
+    color: #293742;
+    text-decoration: none;
+    background-color: transparent;
+}
 
-/* everything from McA stylesheet*/
