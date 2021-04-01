@@ -68,7 +68,7 @@ ul {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center top;
-        padding-left: 80vw;
+        padding-left: 50vw;
         align-items: center;
         justify-content: center;
     }
@@ -1095,4 +1095,3 @@ a {
     text-decoration: none;
     background-color: transparent;
 }
-
