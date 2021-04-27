@@ -59,6 +59,20 @@ ul {
     min-height: 120px;
 }
 
+@media (max-width:575px) {
+    .navbar-brand {
+        /* line-height: 120px */
+        /* font-size: 3rem */
+        background-image: url('assets/img/logos/McCarthy_logo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
+        padding-left: 80vw;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .navbar-brand {
     /* line-height: 120px */
     /* font-size: 3rem */
@@ -67,8 +81,8 @@ ul {
     background-repeat: no-repeat;
     background-position: left top;
     margin-left: 0vw;
-    width: 150px;
-    height: 55px;
+    width: 20vw;
+    height: 50px;
 }
 
 /* @media (min-width:768px) {
@@ -733,8 +747,8 @@ ul.social-footer2 li a {
 
 .hero-home {
     width: 100vw;
-    height: 100vh;
-    background-image: url('assets/img/projects/McA_colour/McA_Hero_Landing.png');
+    height: 90vh;
+    background-image: url('assets/img/projects/McA_colour/McA_Hero_Landing.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
