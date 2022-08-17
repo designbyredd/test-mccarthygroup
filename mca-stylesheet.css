@@ -23,7 +23,7 @@
 :root {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
-    --primary: #293742;
+    --primary: black;
 }
 
 body {
@@ -32,9 +32,9 @@ body {
     font-weight: 300;
     font-size: 1rem;
     line-height: 1.5;
-    color: #293742;
+    color: white;
     text-align: left;
-    background-color: #e8e8e8;
+    background-color: #000;
     overflow-x: hidden;
 }
 
@@ -128,7 +128,7 @@ ul {
     object-position: left;
     background-color: #293742;
     font-family: 'Barlow', sans-serif;
-    color: #ffffff;
+    color: white;
     font-weight: 400;
     margin-top: -30vh;
 }
@@ -162,7 +162,7 @@ ul {
 }
 
 .bg-primary {
-    background-color: #293742 !important;
+    background-color: #000 !important;
 }
 
 .bg-danger {

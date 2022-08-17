@@ -24,7 +24,7 @@
 :root {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
-    --primary: #293742;
+    --primary: #ffffff;
 }
 
 body {
@@ -33,9 +33,9 @@ body {
     font-weight: 300;
     font-size: 1rem;
     line-height: 1.5;
-    color: #293742;
+    color: white;
     text-align: left;
-    background-color: #e8e8e8;
+    background-color: #000;
     overflow-x: hidden;
 }
 
@@ -163,7 +163,7 @@ ul {
 }
 
 .bg-primary {
-    background-color: #293742 !important;
+    background-color: #000 !important;
 }
 
 .bg-danger {
@@ -194,6 +194,7 @@ ul {
     border: 0;
     padding-bottom: 0;
     padding-right: 0;
+    background-color: #000000;
 }
 
 .card-footer {
