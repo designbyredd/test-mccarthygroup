@@ -33,9 +33,9 @@ body {
     font-weight: 300;
     font-size: 1rem;
     line-height: 1.5;
-    color: white;
+    color: #ffffff;
     text-align: left;
-    background-color: #000;
+    background-color: #e8e8e8;
     overflow-x: hidden;
 }
 
@@ -127,7 +127,7 @@ ul {
     padding-bottom: 14vh;
     padding-right: 14vh;
     object-position: left;
-    background-color: #293742;
+    background-color: #ffffff;
     font-family: 'Barlow', sans-serif;
     color: #ffffff;
     font-weight: 400;
@@ -185,16 +185,16 @@ ul {
 }
 
 .card {
-    background-color: #fff;
+    /* background-color: #fff */
     border: 0px solid ;
     border-radius: 0;
 }
 
 .card-body {
+    background-color: #000000;
     border: 0;
     padding-bottom: 0;
     padding-right: 0;
-    background-color: #000000;
 }
 
 .card-footer {
@@ -978,7 +978,7 @@ ul.social-footer2 li a {
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #5a5a5a;
+    color: #ffffff;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -1095,5 +1095,13 @@ a {
     color: #293742;
     text-decoration: none;
     background-color: transparent;
+}
+
+.map {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
