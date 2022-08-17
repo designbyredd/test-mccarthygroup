@@ -185,12 +185,13 @@ ul {
 }
 
 .card {
-    background-color: #fff;
+    background-color: #000000;
     border: 0px solid ;
     border-radius: 0;
 }
 
 .card-body {
+	
     border: 0;
     padding-bottom: 0;
     padding-right: 0;
