@@ -35,7 +35,7 @@ body {
     line-height: 1.5;
     color: #ffffff;
     text-align: left;
-    background-color: #e8e8e8;
+    background-color: #000;
     overflow-x: hidden;
 }
 
@@ -77,13 +77,13 @@ ul {
 .navbar-brand {
     /* line-height: 120px */
     /* font-size: 3rem */
-    background-image: url('assets/img/logos/McCarthy_logo.png');
+    background-image: url('assets/img/logos/Master%20logo%20No%20shadow%20+%20wht%20txt.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left top;
     margin-left: 0vw;
-    width: 20vw;
-    height: 50px;
+    width: 30vw;
+    height: 60px;
 }
 
 /* @media (min-width:768px) {
@@ -103,7 +103,7 @@ ul {
 }
 
 .bg-light {
-    background-color: #e8e8e8 !important;
+    background-color: #fff !important;
 }
 
 .mca-line {
@@ -127,7 +127,7 @@ ul {
     padding-bottom: 14vh;
     padding-right: 14vh;
     object-position: left;
-    background-color: #ffffff;
+    background-color: #000000;
     font-family: 'Barlow', sans-serif;
     color: #ffffff;
     font-weight: 400;
@@ -654,7 +654,7 @@ ul.social-footer2 li a {
 }
 
 .hero-top-blok-right .block {
-    background-color: #293742;
+    background-color: #000000;
     margin-top: -10vh;
 }
 
@@ -1104,4 +1104,3 @@ a {
     margin-bottom: 30px;
     padding-bottom: 30px;
 }
-
