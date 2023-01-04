@@ -185,7 +185,11 @@ ul {
 }
 
 .card {
+<<<<<<< HEAD
     /* background-color: #fff */
+=======
+    background-color: #000000;
+>>>>>>> db1604d4e29993c483d47ac9749a8b40a111b31b
     border: 0px solid ;
     border-radius: 0;
 }
