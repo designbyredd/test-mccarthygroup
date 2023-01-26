@@ -1,6 +1,6 @@
 /* mca stylesheet copied into here */
 .text.danger {
-    color: hotpink !Important;
+    color: hotpink !mportant;
 }
 
 .navbar-toggler {
@@ -21,33 +21,38 @@
     }
 }
 
+.navrow {
+    background-color: orange;
+    padding: 0;
+}
+
 :root {
-    font-family: 'Barlow', sans-serif;
-    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     --primary: #ffffff;
 }
 
 body {
     margin-top: 0;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 1rem;
     line-height: 1.5;
     color: #ffffff;
     text-align: left;
     background-color: #000;
     overflow-x: hidden;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h5, h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 300;
+}
+
+p {
+    font-weight: 100;
 }
 
 ul {
@@ -77,7 +82,7 @@ ul {
 .navbar-brand {
     /* line-height: 120px */
     /* font-size: 3rem */
-    background-image: url('assets/img/logos/MasterLogo_NoShadow_wht-txt.png');
+    background-image: url('../img/logos/MasterLogo_NoShadow_wht-txt.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left top;
@@ -124,7 +129,7 @@ ul {
 
 .blok {
     padding-top: 8vh;
-    padding-bottom: 14vh;
+    padding-bottom: 5vh;
     padding-right: 14vh;
     object-position: left;
     background-color: #000000;
@@ -192,7 +197,6 @@ ul {
 
 .card-body {
     background-color: #000000;
-		border-color:red;
     padding-bottom: 0;
     padding-right: 0;
 }
@@ -397,8 +401,7 @@ footer ul {
 }
 
 /* Footer transparent */
-footer.transparent .footer-top,
-footer.transparent .main-footer {
+footer.transparent .footer-top, footer.transparent .main-footer {
     background: transparent;
 }
 
@@ -481,8 +484,7 @@ footer.light .footer-copyright {
     width: 50%;
 }
 
-.widget-title.text-center span,
-.widget-title.text-center span::after {
+.widget-title.text-center span, .widget-title.text-center span::after {
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -494,16 +496,7 @@ footer.light .footer-copyright {
     background: #7f7f7f;
 }
 
-.typo-light h1,
-.typo-light h2,
-.typo-light h3,
-.typo-light h4,
-.typo-light h5,
-.typo-light h6,
-.typo-light p,
-.typo-light div,
-.typo-light span,
-.typo-light small {
+.typo-light h1, .typo-light h2, .typo-light h3, .typo-light h4, .typo-light h5, .typo-light h6, .typo-light p, .typo-light div, .typo-light span, .typo-light small {
     color: #293742;
 }
 
@@ -534,9 +527,7 @@ ul.social-footer2 li a {
     color: #fff;
 }
 
-.btn:hover,
-.btn:focus,
-.btn.active {
+.btn:hover, .btn:focus, .btn.active {
     background: #293742;
     color: #fff;
     -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -584,8 +575,7 @@ ul.social-footer2 li a {
     background-color: transparent !important;
 }
 
-.recent-projects-2-col .mbr-section-title,
-.recent-projects-2-col .mbr-section-btn {
+.recent-projects-2-col .mbr-section-title, .recent-projects-2-col .mbr-section-btn {
     color: #293742;
 }
 
@@ -621,8 +611,7 @@ ul.social-footer2 li a {
     margin-left: 13px;
 }
 
-.btn .mbr-iconfont,
-.btn.btn-sm .mbr-iconfont {
+.btn .mbr-iconfont, .btn.btn-sm .mbr-iconfont {
     cursor: pointer;
 }
 
@@ -678,8 +667,7 @@ ul.social-footer2 li a {
     text-align: left;
 }
 
-.hero-top-blok-right .mbr-text,
-.hero-top-blok-right .mbr-section-btn {
+.hero-top-blok-right .mbr-text, .hero-top-blok-right .mbr-section-btn {
     color: #e8e8e8;
     text-align: left;
 }
@@ -976,8 +964,7 @@ ul.social-footer2 li a {
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    /* padding-top: 3rem; */
     color: #ffffff;
 }
 
@@ -1092,9 +1079,8 @@ hidelinkforlanding {
 
 /* everything from McA stylesheet */
 a {
-    color: #293742;
+    color: #ffffff;
     text-decoration: none;
-    background-color: transparent;
 }
 
 .map {
@@ -1103,4 +1089,10 @@ a {
     background-position: right bottom;
     margin-bottom: 30px;
     padding-bottom: 30px;
+}
+
+landing-icon {
+    font-size: 10vw;
+    letter-spacing: -27px;
+    font-weight: lighter;
 }

@@ -1,0 +1,30 @@
+.subsection-chips .bento-section.section-m1-max .chip-bento-headline {
+    --m1-max-gradient-stop-1-position: 30%;
+    --m1-max-gradient-stop-2-position: 70%;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(var(--m1-chip-gradient-angle),#fe2f83 var(--m1-max-gradient-stop-1-position),rgb(0 158 227) var(--m1-max-gradient-stop-2-position));
+}
+.subsection-chips .bento-section .chip-bento-headline {
+    --m1-chip-gradient-angle: 90deg;
+    display: inline-block;
+}
+@media only screen and (max-width: 1068px)
+.typography-headline-standalone-alt {
+    font-size: 50px;
+    line-height: 1.05;
+    font-weight: 100;
+    letter-spacing: -0.015em;
+        font-family: Roboto,sans-serif;
+}
+.typography-headline-standalone-alt {
+    font-size: 4vw;
+    line-height: 1.0416666667;
+    font-weight: 100;
+    letter-spacing: -0.015em;
+    font-family: Roboto,sans-serif;
+     {
+    }
+}
