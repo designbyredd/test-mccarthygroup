@@ -17,14 +17,31 @@
     line-height: 1.05;
     font-weight: 100;
     letter-spacing: -0.015em;
-        font-family: Roboto,sans-serif;
-}
-.typography-headline-standalone-alt {
-    font-size: 4vw;
-    line-height: 1.0416666667;
-    font-weight: 100;
-    letter-spacing: -0.015em;
     font-family: Roboto,sans-serif;
-     {
+
+    .typography-headline-standalone-alt {
+        font-size: 5vw;
+        line-height: 1.0416666667;
+        font-weight: 100;
+        letter-spacing: -0.015em;
+        font-family: Roboto,sans-serif;
+
+         {
+        }
     }
+    .smallscreen {
+        font-size: 25vw;
+        text-align: right;
+        font-family: Roboto,sans-serif;
+        font-weight: 100;
+    }
+    @media only screen and (max-width: 767px)
+.typography-headline-standalone-alt {
+        font-size: 10vw;
+        line-height: 1.05;
+        font-weight: 100;
+        letter-spacing: -0.015em;
+        font-family: Roboto,sans-serif;
+    }
+}
 }

@@ -53,6 +53,7 @@ h5, h6 {
 
 p {
     font-weight: 100;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -873,8 +874,9 @@ ul.social-footer2 li a {
 
 .display-4 {
     font-size: 3.2rem;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* .dropdown-menu.show {
@@ -972,9 +974,8 @@ body {
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
-    margin-bottom: 4rem;
-    height: 90vh;
-    margin-top: -50px;
+    /* margin-bottom: 4rem */
+    height: 58vh;
 }
 
 /* Since positioning the image, we need to help out the caption */
